@@ -136,7 +136,14 @@ h2, .h2 {
     font-size: 2rem;
   }
 }
-
+.paragraph-about{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.paragraph-about li {
+  padding-bottom: 20px;
+}
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
@@ -145,7 +152,38 @@ h3, .h3 {
     font-size: 1.75rem;
   }
 }
-
+.about-me-container{
+  margin-bottom: 160px;
+  
+  
+}
+.about-me-img{
+  border-radius: 50%;
+}
+@media (max-width: 1320px) {
+  .about-me-img {
+    height: fit-content;
+    width:  fit-content;    
+    padding: 40px 40px 40px 40px;
+  }
+  .about-me-column{
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+  }
+}
+@media (min-width: 650px) and (max-width: 1350px) {
+  .about-me-img{
+    width: 540px;
+    height: 540px;
+  }
+  .picture-column{
+    display: flex;
+    justify-content: center;
+  }
+}
+.vr {
+  width: 2px;
+}
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
@@ -367,7 +405,9 @@ select {
 [role=button] {
   cursor: pointer;
 }
-
+span {
+  font-family: 'Dancing Script', cursive;
+}
 select {
   word-wrap: normal;
 }
@@ -11599,6 +11639,10 @@ html {
   transform: translateX(-50%);
   border-radius: 3rem;
 }
+.about-me{
+  
+  border-radius: 1rem;
+}
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
@@ -11736,3 +11780,5 @@ html {
     left: -2vw;
   }
 }
+
+

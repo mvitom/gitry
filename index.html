@@ -16,8 +16,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&family=Qwitcher+Grypen&family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Qwitcher+Grypen&family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
     </head>
     <body class="d-flex flex-column h-100">
@@ -38,7 +40,7 @@
                 </div>
             </nav>
             <!-- Header-->
-            <header class="py-5">
+            <header class="py-5 mb-3">
                 <div class="container px-5 pb-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-xl-5">
@@ -47,7 +49,7 @@
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Zdraví &middot; Krása &middot; Business</div></div>
                                 <div class="fs-3 fw-light text-muted">Chcete posilnit krásu nebo pečovat o zdraví s kvalitní kosmetikou?</div>
                                 <h1 class="display-5 mb-5">Staňte se nezávislou díky podnikání v tiande</h1>
-                                <button type="button" class="btn btn-outline-dark">Více info</button>
+                                <a href="#slogan"><button type="button" class="btn btn-outline-dark">Více info</button></a>
                                 <!--<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
                                     <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
@@ -180,20 +182,51 @@
                 </div>
             </header>
             <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
+            <section id="slogan" class="bg-light mt-5 py-2">
+                <div class="container px-3">
+                    <div class="row gx-5 justify-content-center my-5">
                         <div class="col-xxl-10">
-                            <div class="text-center my-5">
-                                <h2 class="display-5"><span>Spokojená maminka a zdravotní sestra pomáhající odkrýt svět krásy a zdraví, který mění životy žen!"</span></h2>
-                                <p class="lead fw-light mb-4">Jako žena zastávám mnohé role: jsem manželka, matka, sestra, přítelkyně, zdravotní sestra A vášnivý nadšenec pro kosmetiku a zdraví. Všechny tyto aspekty mého života mě dovedly díky kamarádce k Tiande - kosmetické a zdravotní produkty, které pochází z čistých horských prostředí Himalájí, Altaje a Číny. Zamilovala jsem si širokou škálu produktů určených k péči o zdraví, od léčivých náplastí proti bolesti, přes detoxikační náplasti, bylinné čaje na očistu organismu a hormonální vložky pro ženy, až po solné koupele. Mám s nimi všechny osobní, fantastické zkušenosti a opravdu je miluji. Po pár mesících užívání této kosmetiky jsem věděla že nechci být jen spotřebitelkou, a tak jsem využila možnost podnikat v něčem, čemu věřím.</p>  
+                            <div class="text-center my-5 fw-lighter">
+                                <h1><em><span>"Spokojená maminka a zdravotní sestra pomáhající odkrýt svět krásy a zdraví, který mění životy žen!"</span></em></h1>
+                                  
                             </div>
                         </div>   
                     </div>
-
-
                 </div>
             </section>
+
+            <section class="mb-5">
+                <div class="container-fluid px-5 shadow-md about-me-container">
+                    <div class="row align-items-center py-5">
+                        <div class="col-xxl-7 border-end border-5 border-success about-me-column">
+                            <ul class="paragraph-about">
+                                <li>Jako žena zastávám mnohé role: jsem manželka, matka, sestra, přítelkyně, zdravotní sestra a vášnivý nadšenec pro kosmetiku a zdraví</li>
+                                <li>Všechny tyto aspekty mého života mě dovedly díky kamarádce k Tiande - kosmetické a zdravotní produkty, které pochází z čistých horských prostředí Himalájí, Altaje a Číny.</li>
+                                <li>Zamilovala jsem si širokou škálu produktů určených k péči o zdraví, od léčivých náplastí proti bolesti, přes detoxikační náplasti, bylinné čaje na očistu organismu a hormonální vložky pro ženy, až po solné koupele. Mám s nimi všechny osobní, fantastické zkušenosti a opravdu je miluji.</li>
+                                <li>Po pár mesících užívání této kosmetiky jsem věděla že nechci být jen spotřebitelkou, a tak jsem využila možnost podnikat v něčem, čemu věřím.</li>
+                            </ul>
+                            
+                        </div>
+                        
+
+                        <div class="col-xxl-5 picture-column">
+                            <img src="./assets/profil-1.jpeg" class="mx-lg-auto img-fluid about-me-img" alt="Bootstrap Themes" height="240" loading="lazy">
+                        </div>
+                    </div> 
+                </div>
+            </section>
+
+
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                    </div>
+                </div>
+            </section>
+
+            
         </main>
         <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
