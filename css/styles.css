@@ -216,8 +216,13 @@ h3, .h3 {
   }
 }
 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align:justify;
+}
+@media (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
 }
 .vr {
   width: 2px;
@@ -4272,6 +4277,7 @@ textarea.form-control-lg {
 
 .card-3{
   transition: 0.5s;
+  border: 1px solid green;
 }
 .card-3:hover {
   transform: translateY(-20px);
