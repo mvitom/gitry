@@ -10,6 +10,22 @@
 /*$(window).on("scroll", function() {
     if ($(this).scrollTop() <= 425) {}
 */
+function sendEmail(){
+  Email.send({
+      SecureToken :'84eedda8-da22-4b47-914c-84a0ac73b4bb',
+      To : 'natalieszmekov@gmail.com',
+      From : 'mr.veverak@gmail.com',
+      Subject : "New Contact Form",
+      Body : 
+        'jméno: '+document.getElementById('name').value +
+        '<br/>email: '+ document.getElementById('email').value +
+        '<br/>telefon: '+ document.getElementById('phone').value +
+        '<br/>zpráva: '+document.getElementById('message').value
+  }).then(
+  message => alert(message)
+  );
+}
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
